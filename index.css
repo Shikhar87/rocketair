@@ -522,7 +522,16 @@ video{
 .card .photu{
     width: 25vw;
     height: 38vw;
-    background-color: red;
+    /* background-color: red; */
+}
+.photu img{
+    height: 100%;
+    width:100%;
+    background-size: contain;
+}
+h5{
+    color:rgba(119, 118, 118, 0.938);
+    font-weight: 100;
 }
 
 #footer{
